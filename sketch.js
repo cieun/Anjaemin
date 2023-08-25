@@ -85,3 +85,7 @@ function movingNumberMatrix() {
   textYpos += dropSpeed;
   generateNumberMatrix();
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
